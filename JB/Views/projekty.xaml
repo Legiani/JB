@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="JB.projekty">
+	<ScrollView>
+        <StackLayout>
+	      	<Label Margin="0, 20, 0, 20" Text="Moje projekty" FontSize="20" HorizontalOptions="Center" />
+	      	<BoxView Color="Aqua" HeightRequest="3" HorizontalOptions="FillAndExpand"/>
+			
+			<Label Margin="0, 10, 0, 0" Text="R2-D2" FontSize="15" HorizontalOptions="Center"/>
+		  	<Image Source="http://www.theoldrobots.com/images6/r2d2a5.JPG" />
+
+			<Label Margin="0, 10, 0, 0" Text="MSE-6" FontSize="15" HorizontalOptions="Center"/>
+		  	<Image Source="http://caldwellarms.com/Images/droids/MSE6.png" />
+
+			<Label Margin="0, 10, 0, 0" Text="Iron man helmet" FontSize="15" HorizontalOptions="Center"/>
+		  	<Image Source="http://pre03.deviantart.net/e6e3/th/pre/i/2014/286/4/2/iron_man_helmet_mark_42_by_newdeal666-d82pl6i.png" />
+  	  	</StackLayout>
+    </ScrollView>
+</ContentPage>

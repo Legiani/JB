@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="JB.kontakt"
+		>
+	
+    <StackLayout Padding="0,20,0,0" Spacing="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+     	<Label Margin="0, 0, 0, 10" Text="Kontakt" FontSize="20" HorizontalOptions="Center" />
+		<BoxView Color="Aqua" HeightRequest="3" HorizontalOptions="FillAndExpand"/>
+		<Image Margin="15, -20, 15, 0" Source="jack.jpg" />
+			
+		<Label Margin="10, 10, 0, 0" Text="Adresa:" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="Mesto" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="Ulice" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="Psč" FontSize="15"/>
+		<Label Margin="10, -10, 0, 0" Text="Kontakt:" FontSize="15" />
+    		<Label Margin="35, -15, 0, 0" Text="E-mail" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="Telefon" FontSize="15"/>
+  	</StackLayout>
+
+</ContentPage>

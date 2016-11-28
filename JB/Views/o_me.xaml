@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JB.o_me">
+  
+    <StackLayout Padding="0,20,0,0" Spacing="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+     	<Label Margin="0, 0, 0, 10" Text="O mě" FontSize="20" HorizontalOptions="Center" />
+		<Image Margin="15, -20, 15, 0" Source="http://www.mobygames.com/images/shots/l/573389-lego-pirates-of-the-caribbean-the-video-game-playstation-3.jpg" />
+			
+		<Label Margin="10, -10, 0, 0" Text="Víme, známe" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="HTML/CSS" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="PHP" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="MySQL" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="Arduino C" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="LabVIEW" FontSize="15"/>
+		<Label Margin="10, -10, 0, 0" Text="Došli jsme, prošli jsme" FontSize="15" />
+    		<Label Margin="35, -15, 0, 0" Text="Zakladní škola" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="Dětská univertita (TUL)" FontSize="15"/>
+			<Label Margin="35, -15, 0, 0" Text="2x výhra prvního místa na souteži Kyberrobot" FontSize="15"/>
+  	</StackLayout>
+
+</ContentPage>
